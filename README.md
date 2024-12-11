@@ -2,7 +2,7 @@
 
 Este es un proyecto de aplicación de lista de tareas (To-Do List) desarrollado con **Ionic**. A continuación, se describen los pasos para ejecutar la aplicación localmente en tu entorno de desarrollo.
 
-## Requisitos Previos
+# Requisitos Previos
 
 Antes de ejecutar la aplicación, asegúrate de tener instalados los siguientes requisitos:
 
@@ -11,7 +11,7 @@ Antes de ejecutar la aplicación, asegúrate de tener instalados los siguientes 
    ```bash
    npm install -g @ionic/cli
 
-## Clonar el Repositorio
+# Clonar el Repositorio
 Clona el repositorio del proyecto en tu máquina local:
 
 git clone https://github.com/Danth2907/todo-app-ionic.git
@@ -20,13 +20,13 @@ Entra en el directorio del proyecto:
 
 cd todo-app-ionic
 
-##Instalación de Dependencias
+# Instalación de Dependencias
 
 Una vez dentro del directorio del proyecto, instala las dependencias necesarias utilizando el siguiente comando:
 
 npm install
 
-##Ejecución de la Aplicación
+# Ejecución de la Aplicación
 
 Para ejecutar la aplicación en un navegador, usa el siguiente comando:
 
@@ -39,7 +39,7 @@ Para Android asegúrese de tener Android Studio y el entorno de desarrollo confi
 
 ionic capacitor run android
 
-#Aplicación
+# Aplicación
 
 Pantalla de inicio: Muestra un resumen de las tareas pendientes y completadas.
 Agregar tareas: Permite a los usuarios agregar nuevas tareas con un título, descripción y tipo (trabajo, casa, negocios).
