@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Lista de Tareas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+ 
+  <ion-list>
+    <ion-item *ngFor="let task of tasks; let i = index">
+      <ion-label>{{ task.title }}</ion-label>
+      <ion-button (click)="toggleTaskCompletion(task)" fill="clear" color="success">
+        <ion-icon name="checkmark"></ion-icon>
+      </ion-button>
+      <ion-button (click)="deleteTask(task.id)" fill="clear" color="danger">
+        <ion-icon name="trash"></ion-icon>
+      </ion-button>
+    </ion-item>
+  </ion-list>
+
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button color="primary" routerLink="/add-task">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>
